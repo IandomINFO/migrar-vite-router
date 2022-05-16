@@ -3,14 +3,14 @@ Primeiramente você deve alterar a linha de comando do package.json do seu proje
 
     "dependencies": {
     "vue": "^3.2.33",
-  },
+    },
   
   (ou algo similiar a isso) e adicionar a linha "vue-router": "^4.0.14", ficando assim:
   
     "dependencies": {
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
-  },
+    },
   
   Após essa mudança você deve abrir o terminal e instalar o pacote com o comando "npm i".
   Feito isso você deve alterar a linha de código do seu main.js para:
