@@ -15,17 +15,18 @@ Primeiramente você deve alterar a linha de comando do package.json do seu proje
   Após essa mudança você deve abrir o terminal e instalar o pacote com o comando "npm i".
   Feito isso você deve alterar a linha de código do seu main.js para:
   
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
+    import { createApp } from "vue";
+    import App from "./App.vue";
+    import router from "./router";
 
-import "@/assets/base.css"; 
+    import "@/assets/base.css";
 
-const app = createApp(App);
+    const app = createApp(App);
 
-app.use(router);
+    app.use(router);
 
-app.mount("#app");
+    app.mount("#app");
+
 
 (caso esteja usando outro nome de folha de estilo css apenas altere de "base.css" para o "nome-do-seu-arquivo.css")
 
