@@ -21,3 +21,7 @@ Primeiramente você deve rodar o comando npm i vue-router@4 <br>
   
  // A pasta router com o arquivo index.js dentro. <br>
  // A pasta views com o arquivo TemplateComponente.vue (a pasta views é o lugar onde os seus componentes de pagina raiz irão ficar).
+ 
+Dentro App.vue importar o routerview com o código:
+  import {RouterView } from "vue-router";
+  
