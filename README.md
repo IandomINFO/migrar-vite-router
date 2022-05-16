@@ -33,4 +33,4 @@ Primeiramente você deve alterar a linha de comando do package.json do seu proje
   Feito isso você deve baixar ou recriar os arquivos que estão disponibilizados nesse repositório dentro do seu projeto, os arquivos são:
   
  // A pasta router com o arquivo index.js dentro.
- // A pasta views vazia (a pasta views é o lugar onde os seus componentes de pagina raiz irão ficar).
+ // A pasta views com o arquivo TemplateComponente.vue (a pasta views é o lugar onde os seus componentes de pagina raiz irão ficar).
