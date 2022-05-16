@@ -6,17 +6,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => import("../views/CardapioPage.vue"),
-    },
-    {
-      path: "/sobre",
-      name: "sobre",
-      component: () => import("../views/SobrePage.vue"),
-    },
-    {
-      path: "/contato",
-      name: "contato",
-      component: () => import("../views/ContatoPage.vue"),
+      component: () => import("../views/TemplateComponente.vue"),
     },
   ],
 });
