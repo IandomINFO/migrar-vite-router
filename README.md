@@ -19,5 +19,5 @@ Primeiramente você deve rodar o comando npm i vue-router@4 <br>
 
   Feito isso você deve baixar ou recriar os arquivos que estão disponibilizados nesse repositório dentro do seu projeto, os arquivos são:
   
- // A pasta router com o arquivo index.js dentro.
+ // A pasta router com o arquivo index.js dentro. <br>
  // A pasta views com o arquivo TemplateComponente.vue (a pasta views é o lugar onde os seus componentes de pagina raiz irão ficar).
