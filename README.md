@@ -1,5 +1,5 @@
 
-Primeiramente você deve rodar o comando npm i vue-router@4
+Primeiramente você deve rodar o comando npm i vue-router@4 <br>
   Feito isso você deve alterar a linha de código do seu main.js para:
   
     import { createApp } from "vue";
